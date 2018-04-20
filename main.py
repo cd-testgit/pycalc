@@ -1,3 +1,5 @@
+import math
+
 print("Select operation.")
 print("1.Add")
 print("2.Subtract")
@@ -21,4 +23,4 @@ elif choice == 3:
 elif choice == 4:
     print(num1, "/", num2, "=", "<place_divide_result_here>")
 else:
-    print("Invalid input")
+    print("log(", num1, ") = ", math.log(num1))
