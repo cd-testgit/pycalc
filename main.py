@@ -13,7 +13,7 @@ if choice == 1:
     print(num1, "+", num2, "=", "<place_add_result_here>")
 
 elif choice == 2:
-    print(num1, "-", num2, "=", "<place_subtract_result_here>")
+    print(num1, "-", num2, "=", num1-num2)
 
 elif choice == 3:
     print(num1, "*", num2, "=", "<place_multiply_result_here>")
